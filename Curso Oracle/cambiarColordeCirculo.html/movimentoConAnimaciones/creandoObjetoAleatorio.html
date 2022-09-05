@@ -1,0 +1,34 @@
+<canvas width="600" height="400"> </canvas>
+
+<script>
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");        
+    pincel.fillStyle = "lightgrey";
+    pincel.fillRect(0,0,600,400);  
+    var radio = 20;
+
+    function disenharCircunferencia(x,y,radio){
+        pincel.fillStyle = "blue";
+        pincel.beginPath();
+        pincel.arc(x,y,radio,0,2*Math.PI);
+        pincel.fill();
+    }  
+    function limpierPantalla(){
+        pincel.clearRect(0,0,600,400);
+         
+    }
+    var x=0;
+    function actualizarPantalla(){
+        limpierPantalla();
+        disenharCircunferencia(x,20,10);
+        x++;
+    }
+    function diseñarObjetivo(x,x){
+        disenharCircunferencia(x,y,radio+30,"bulue");
+        disenharCircunferencia(x,y,radio+20,"white");
+        disenharCircunferencia(x,y,radio,"bulue");
+    }
+    xAleatorio= 50;
+    yAleatorio=100;
+    diseñarObjetivo(xAleatorio,xAleatorio);
+    </script>

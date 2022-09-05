@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(95, 26, 160);
+    padding: 20px;
+}
+#xd{
+    width: 100%;
+}
+.titulo{
+    padding-left: 30px;
+}
+h3{
+    text-align: center;
+}
+p{
+text-align: center;
+}
+
+em strong{
+    color: rgb(114, 131, 131);
+}
+#mision{
+    font-size: 20px
+}
+.difitem{
+    font-style: italic;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right :20%;
+}
+.difim{
+    width:50%;
+}

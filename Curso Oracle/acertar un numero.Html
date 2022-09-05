@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<input>
+<button>verificar si hacerto con el secreto</button>
+<script>
+    function aleatorio (){
+        return Math.round(Math.random()*10);
+    }
+    function sorteraNum(cantidad){
+        var secreto=[];
+        var contador= 1;
+        while(contador<=cantidad){
+        numAleatorio=aleatorio();
+        secreto.push(numAleatorio);
+        contador++;
+        }
+        return secreto; 
+    }
+var sercreto = sorteraNum(3);
+console.log(sercreto)
+
+var input= document.querySelector("input");
+input.focus();
+function verificar (){
+    var encontrado = false;
+    for (var posicion =0;posicion< sercreto.length;posicion++){
+        if (parseInt(input.value)==sercreto[posicion]){
+            alert("usted erro");
+            encontrado= true;
+            break;
+        }
+        if(encontrado== false){
+            alert("usted fallo")
+        }
+    }
+ alert("usted fallo");
+}
+var button = document.querySelector("button");
+	button.onclick = verificar;
+</script>

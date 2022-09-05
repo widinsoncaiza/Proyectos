@@ -1,0 +1,90 @@
+header{
+    background-color:gray;
+    padding: 15px 0;
+}
+.cajas{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 23px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: white;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 13px;
+}
+
+   
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dpresio{
+font-size: 30px;
+font-weight: bold;
+margin-top: 10px;
+}
+.dproduct{
+font-size: 15px;
+text-transform: uppercase;
+}
+.dimagen{
+    width:105%;
+}
+nav a:hover{
+    color:yellowgreen;
+    text-decoration: underline;
+}
+.productos li:hover{
+    border-color:yellowgreen;
+    
+     
+}
+.productos li:hover h2{
+    font-size: 35px;
+}
+.productos li:active{
+    border-color:red;
+}
+footer{
+    text-align: center;
+    background-color:dimgray;
+    padding: 40px;
+}
+.copyrhigt{
+    padding: 40px;
+}
+h1{
+    width: 100%;
+}

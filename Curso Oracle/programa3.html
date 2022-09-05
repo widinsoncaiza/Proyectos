@@ -1,0 +1,28 @@
+<canvas height="500" width="500">
+</canvas>
+<script>
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle= "red";
+    pincel.fillRect(0,0,300,400);
+    function escribirAlerta(evento){
+        var x= evento.pageX;
+        var y= evento.pageY;
+        console.log(evento);
+        alert(x+","+y);
+    }
+    function dibujarCir(evento){
+        var x= evento.pageX;
+        var y= evento.pageY;
+        pincel.fillStyle = "blue";
+        pincel.beginPath();
+        pincel.arc(x,y,10,0,2*(3.14));
+        pincel.fill();
+        console.log(x+","+y);
+        //alert(x+","+y);
+    }
+
+
+    //pantalla.onclick= escribirAlerta;
+    pantalla.onclick= dibujarCir;
+</script>
