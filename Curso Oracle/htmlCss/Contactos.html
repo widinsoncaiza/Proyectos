@@ -3,9 +3,9 @@
     <head>
         <meta lang="esp">
         <meta charset="UTF-8"> 
-        <title>Productos</title>
+        <title>Contactos</title>
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="productos.css">
+        <link rel="stylesheet" href="style.css">
 
     </head>
    
@@ -32,12 +32,51 @@
                 <input type="text" id-"correoelectron ico">
                 <label for-"telefono">Teléfono</label>
                 <input type="text" id="telefono">
+                <label for-"mens aje">Mensaje</label>
+                <textarea cols="70" rows= "10" id="mensaje"> </textarea>
+                <div>
+                    <p>¿Cómo le gustaría que lo contactemos?</p>
+                
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                
+                </div>
+               
+                <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>      
+
+                <input type="submit" value="Enviar formulario" class="enviar">
             </form>
         </main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
         <footer>
             <img src="xd/imagen5.png">
             <p class="copyrhigt">&copy muerganote.com
             </p>
+
         </footer>
     </body>
 </html>

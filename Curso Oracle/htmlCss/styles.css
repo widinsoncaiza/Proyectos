@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(95, 26, 160);
+    background-color: rgb(36, 13, 58);
     padding: 20px;
 }
 #xd{
@@ -16,10 +16,10 @@ text-align: center;
 }
 
 em strong{
-    color: rgb(114, 131, 131);
+    color: rgb(114, 185, 185);
 }
 #mision{
-    font-size: 20px
+    font-size: 20px;
 }
 .difitem{
     font-style: italic;
@@ -32,4 +32,7 @@ ul{
 }
 .difim{
     width:50%;
+}
+body{
+    text color: white;
 }
