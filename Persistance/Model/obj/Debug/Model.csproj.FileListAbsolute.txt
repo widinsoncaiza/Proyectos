@@ -1,9 +1,0 @@
-C:\Users\Gdavidce\source\repos\Persistance\Model\bin\Debug\Model.dll
-C:\Users\Gdavidce\source\repos\Persistance\Model\bin\Debug\Model.pdb
-C:\Users\Gdavidce\source\repos\Persistance\Model\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Gdavidce\source\repos\Persistance\Model\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Gdavidce\source\repos\Persistance\Model\obj\Debug\Model.csprojAssemblyReference.cache
-C:\Users\Gdavidce\source\repos\Persistance\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
-C:\Users\Gdavidce\source\repos\Persistance\Model\obj\Debug\Model.csproj.CopyComplete
-C:\Users\Gdavidce\source\repos\Persistance\Model\obj\Debug\Model.dll
-C:\Users\Gdavidce\source\repos\Persistance\Model\obj\Debug\Model.pdb

@@ -1,8 +1,0 @@
-que mas que haces todo bien espero sigas asi xdd 
-public class HolaMundo {
-
-	public static void main(String[] args) {		
-		System.out.println("Hola Mundo");
-	}
-
-}
