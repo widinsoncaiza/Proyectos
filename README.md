@@ -1,2 +1,2 @@
-# estandousandogit
-aprendiendo a usar git
+# repo de ayuda
+Es-css-html-java-javascript
